@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Football Arena",
+  "version": "1.0.0",
+  "description": "Group your streaming sites and play them side by side.",
+  "action": {
+    "default_title": "Open Football Arena",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
